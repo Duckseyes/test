@@ -37,8 +37,8 @@
                 <&kp RIGHT>,
                 <&macro_press>,
                 <&macro_release>,
-                <&macro_release>,
-                <&kp LEFT_SHIFT &kp LEFT_WIN &kp RIGHT>;
+                <&kp LEFT_SHIFT &kp LEFT_WIN &kp RIGHT>,
+                <&macro_release>;
 
             label = "WIN_RIGHT";
             tap-ms = <200>;
