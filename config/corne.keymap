@@ -13,7 +13,16 @@
         win_left: win_left {
             compatible = "zmk,behavior-macro";
             #binding-cells = <0>;
-            bindings = <&kp LSHIFT &kp LEFT>;
+            bindings =
+                <&macro_press>,
+                <&kp LSHIFT &kp LEFT_WIN>,
+                <&macro_press>,
+                <&kp LEFT>,
+                <&macro_press>,
+                <&macro_release>,
+                <&kp LEFT_SHIFT &kp LEFT_WIN &kp LEFT>,
+                <&macro_release>;
+
             label = "WIN_LEFT";
             tap-ms = <200>;
         };
