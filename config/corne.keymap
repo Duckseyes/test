@@ -15,6 +15,7 @@
             #binding-cells = <0>;
             bindings = <&kp LSHIFT &kp LEFT>;
             label = "WIN_LEFT";
+            tap-ms = <100>;
         };
 
         win_right: win_right {
@@ -22,6 +23,7 @@
             #binding-cells = <0>;
             bindings = <&kp LEFT_SHIFT &kp RIGHT>;
             label = "WIN_RIGHT";
+            tap-ms = <100>;
         };
     };
 
