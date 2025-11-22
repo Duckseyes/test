@@ -9,6 +9,22 @@
 #include <dt-bindings/zmk/keys.h>
 
 / {
+    macros {
+        win_left: win_left {
+            compatible = "zmk,behavior-macro";
+            #binding-cells = <0>;
+            bindings = <&kp LEFT_WIN &kp LSHIFT &kp LEFT>;
+            label = "WIN_LEFT";
+        };
+
+        win_right: win_right {
+            compatible = "zmk,behavior-macro";
+            #binding-cells = <0>;
+            bindings = <&kp LEFT_WIN &kp LEFT_SHIFT &kp &kp>;
+            label = "WIN_RIGHT";
+        };
+    };
+
     keymap {
         compatible = "zmk,keymap";
 
