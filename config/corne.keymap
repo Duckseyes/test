@@ -13,14 +13,14 @@
         win_left: win_left {
             compatible = "zmk,behavior-macro";
             #binding-cells = <0>;
-            bindings = <&kp LEFT_WIN &kp LSHIFT &kp LEFT>;
+            bindings = <&kp LSHIFT &kp LEFT_WIN &kp LEFT>;
             label = "WIN_LEFT";
         };
 
         win_right: win_right {
             compatible = "zmk,behavior-macro";
             #binding-cells = <0>;
-            bindings = <&kp LEFT_WIN &kp LEFT_SHIFT &kp RIGHT>;
+            bindings = <&kp LEFT_SHIFT &kp LEFT_WIN &kp RIGHT>;
             label = "WIN_RIGHT";
         };
     };
