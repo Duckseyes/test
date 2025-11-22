@@ -15,7 +15,7 @@
             #binding-cells = <0>;
             bindings = <&kp LSHIFT &kp LEFT>;
             label = "WIN_LEFT";
-            tap-ms = <100>;
+            tap-ms = <200>;
         };
 
         win_right: win_right {
@@ -23,7 +23,7 @@
             #binding-cells = <0>;
             bindings = <&kp LEFT_SHIFT &kp RIGHT>;
             label = "WIN_RIGHT";
-            tap-ms = <100>;
+            tap-ms = <200>;
         };
     };
 
@@ -39,10 +39,10 @@
 
             display-name = "Base";
             bindings = <
-&kp TAB    &kp Q  &kp W  &kp E         &kp R           &kp T    &kp Y          &kp U      &kp I      &kp O    &kp P                  &kp BSPC
-&kp LCTRL  &kp A  &kp S  &kp D         &kp F           &kp G    &kp H          &kp J      &kp K      &kp L    &mt SINGLE_QUOTE SEMI  &kp SQT
-&kp LSHFT  &kp Z  &kp X  &kp C         &kp V           &kp B    &kp N          &kp M      &kp COMMA  &kp DOT  &mt ENTER SLASH        &kp ESC
-                         &kp LEFT_ALT  &kp LEFT_SHIFT  &mo 2    &kp BACKSPACE  &kp SPACE  &mo 1
+&kp TAB    &kp Q  &kp W  &kp E         &kp R           &kp T    &kp Y      &kp U          &kp I      &kp O    &kp P                  &kp BSPC
+&kp LCTRL  &kp A  &kp S  &kp D         &kp F           &kp G    &kp H      &kp J          &kp K      &kp L    &mt SINGLE_QUOTE SEMI  &kp SQT
+&kp LSHFT  &kp Z  &kp X  &kp C         &kp V           &kp B    &kp N      &kp M          &kp COMMA  &kp DOT  &mt ENTER SLASH        &kp ESC
+                         &kp LEFT_ALT  &kp LEFT_SHIFT  &mo 2    &kp SPACE  &kp BACKSPACE  &mo 1
             >;
         };
 
