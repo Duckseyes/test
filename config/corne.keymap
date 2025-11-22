@@ -20,7 +20,7 @@
         win_right: win_right {
             compatible = "zmk,behavior-macro";
             #binding-cells = <0>;
-            bindings = <&kp LEFT_WIN &kp LEFT_SHIFT &kp &kp>;
+            bindings = <&kp LEFT_WIN &kp LEFT_SHIFT &kp RIGHT>;
             label = "WIN_RIGHT";
         };
     };
