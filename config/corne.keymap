@@ -75,11 +75,5 @@
                                        &kp LEFT_ALT  &kp RSHIFT  &mo 2        &kp BACKSPACE  &kp SPACE  &mo 1
             >;
         };
-
-        extra_1 { status = "reserved"; };
-
-        extra_2 { status = "reserved"; };
-
-        extra_3 { status = "reserved"; };
     };
 };
